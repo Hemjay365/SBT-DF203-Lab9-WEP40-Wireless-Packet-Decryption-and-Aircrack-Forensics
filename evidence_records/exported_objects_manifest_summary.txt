@@ -1,0 +1,21 @@
+Sample of recovered/carved objects (see report Section 7 and Figures 9-10
+for full screenshots). Full hash listing and complete file inventory remain
+on the Kali VM at ~/SBT-DF203-Lab9/reports/exported_file_hashes.txt and
+reports/exported_file_types.txt - copy these in via the shared folder for
+the complete, unabridged record.
+
+Examples recovered via tshark --export-objects http:
+  exported/http_objects/portfolio-slideshow.min.js  - JavaScript source
+  exported/http_objects/twitter.png                  - PNG image data
+  exported/http_objects/ogli5PA(1).mp4               - MP4 video data
+  exported/http_objects/hit(1).json                  - JSON text data
+  exported/http_objects/redir.html                   - HTML document
+  exported/http_objects/rss.png                      - PNG image data
+  exported/http_objects/dot.gif                       - GIF image data (89a)
+
+Examples recovered via foremost signature carving:
+  exported/foremost/jpg/00000104.jpg  - JPEG, 2492x2492, baseline
+  exported/foremost/jpg/00004538.jpg  - JPEG, 718x404, baseline
+  exported/foremost/gif/00000406.gif  - GIF image data, version 89a
+  exported/foremost/htm/00024427.htm  - HTML document
+  exported/foremost/png/00001765.png  - PNG image data, 44x44 RGBA

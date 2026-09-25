@@ -1,0 +1,3 @@
+   788225  13904 -rw-rw-r--   1 kali     kali     14234002 Sep 24 16:05 working/file_working
+   788154  12540 -rw-rw-r--   1 kali     kali     12837660 Sep 24 16:05 working/file_working.xz
+   788259  12488 -rw-rw-r--   1 kali     kali     12784501 Sep 24 16:14 working/file_working-dec

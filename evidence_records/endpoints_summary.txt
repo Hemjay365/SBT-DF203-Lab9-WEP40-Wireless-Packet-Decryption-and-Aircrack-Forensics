@@ -1,0 +1,33 @@
+Ethernet Endpoints (top entries)
+Filter:<No Filter>
+                            | Packets | | Bytes  |  | Tx Packets | | Tx Bytes | | Rx Packets | | Rx Bytes |
+Apple_68:96:7c (f0:f6:1c:68:96:7c)   15407  12 MB    7076  616 kB    8331  11 MB
+EFNetworks_55:97:d4 (00:26:66:55:97:d4)  15020  12 MB   8178  11 MB   6842  593 kB
+ASUSTekCOMPU_2a:c2:7a         358   281 kB     223  270 kB     135  11 kB
+
+IPv4 Endpoints (top entries)
+Filter:<No Filter>
+                    | Packets | | Bytes  | | Tx Packets | | Tx Bytes | | Rx Packets | | Rx Bytes |
+192.168.0.15         15309  12 MB   6995  608 kB   8314  11 MB
+198.90.20.111         8057  6,916 kB  4446  6,637 kB  3611  279 kB
+199.27.79.193         5694  4,825 kB  3131  4,603 kB  2563  221 kB
+192.168.0.9            329  277 kB    197  265 kB    132  11 kB
+173.194.127.141        153  109 kB     80  102 kB     73   7,364 bytes
+173.194.127.55         143  89 kB      71  82 kB      72   6,990 bytes
+8.8.8.8                 81  10 kB      40  6,960 bytes  41  3,391 bytes
+199.16.158.186          66  15 kB      29  10 kB      37   5,214 bytes
+173.194.127.227         66  24 kB      26  15 kB      40   8,455 bytes
+173.194.127.229         55  22 kB      23  13 kB      32   9,731 bytes
+31.13.70.1              51  19 kB      26  15 kB      25   3,151 bytes
+
+Busiest TCP conversation:
+192.168.0.15:51007 <-> 198.90.20.111:80   2235 frames, 1,958 kB total
+
+NOTE: This is a summary transcribed from lab screenshots for the submission
+package. The full, complete outputs of:
+  reports/ethernet_endpoints.txt
+  reports/ip_endpoints.txt
+  reports/tcp_conversations.txt
+  reports/ip_mac_mapping_sample.tsv
+remain on the Kali VM at ~/SBT-DF203-Lab9/reports/ and should be copied in
+via the shared folder if the full, unabridged tables are required.
