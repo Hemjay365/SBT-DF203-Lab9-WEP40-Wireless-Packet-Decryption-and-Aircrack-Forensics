@@ -2,7 +2,6 @@
 
 ```
 ├── report/
-│   ├── SBT-DF203-Lab9_2025-FWSD-11468_MaryJoyAdewole.docx   Full report (Word)
 │   └── SBT-DF203-Lab9_2025-FWSD-11468_MaryJoyAdewole.pdf    Full report (PDF)
 │
 ├── evidence_records/
